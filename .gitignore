@@ -28,9 +28,13 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-/.idea
 /.gradle
 /items.json
 /items.html
 /items.xml
 /list.csv
+/.idea/
+
+
+# Ignore Gradle build output directory
+build
