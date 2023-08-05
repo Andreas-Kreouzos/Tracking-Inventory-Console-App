@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class XmlFile extends TrackingFile {
+
 	static StringBuilder sb2 = new StringBuilder();
 
 	public XmlFile(ArrayList<Item> items) {
@@ -27,7 +28,6 @@ public class XmlFile extends TrackingFile {
 
 		sb2.append("</root>\n");
 		System.out.println(sb2.toString());
-
 	}
 
 	@Override

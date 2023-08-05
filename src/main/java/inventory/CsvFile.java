@@ -11,7 +11,6 @@ public class CsvFile extends TrackingFile {
 
 	public CsvFile(ArrayList<Item> items) {
 		super(items);
-
 	}
 
 	@Override
@@ -23,7 +22,6 @@ public class CsvFile extends TrackingFile {
 		}
 		csvWriter.close();
 		System.out.println("Success!The CSV file was written to the disk.");
-
 	}
 
 	public String toText(){

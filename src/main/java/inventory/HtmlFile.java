@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class HtmlFile extends TrackingFile {
+
 	static StringBuilder sb = new StringBuilder();
 
 	public HtmlFile(ArrayList<Item> items) {
